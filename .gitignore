@@ -33,11 +33,6 @@ out/
 # Dependency directories
 node_modules/
 
-# Test output
-test_output.txt
-test_full_output.txt
-compile_err.txt
-run_err.txt
 
 # Coverage reports (keep in docs folder instead)
 # target/site/jacoco/
@@ -76,14 +71,3 @@ local.properties
 # Spring Boot DevTools
 .sts4-cache/
 
-# Gemini artifacts (for development only)
-.gemini/
-
-# Task files (not needed in repo)
-*.pdf
-task_requirements.txt
-compile_output.txt
-test_output.txt
-test_full_output.txt
-compile_err.txt
-run_err.txt
