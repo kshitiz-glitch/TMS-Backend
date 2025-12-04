@@ -1,0 +1,89 @@
+# Compiled class files
+*.class
+target/
+
+# Log files
+*.log
+logs/
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+.project
+.classpath
+.settings/
+
+# Maven wrapper
+.mvn/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+*.env
+.env.local
+
+# Build outputs
+build/
+out/
+
+# Dependency directories
+node_modules/
+
+# Test output
+test_output.txt
+test_full_output.txt
+compile_err.txt
+run_err.txt
+
+# Coverage reports (keep in docs folder instead)
+# target/site/jacoco/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# H2 database files
+*.db
+*.trace.db
+*.lock.db
+
+# Package files
+*.jar
+*.war
+*.ear
+!.mvn/wrapper/maven-wrapper.jar
+
+# JetBrains
+.idea/
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+local.properties
+
+# Spring Boot DevTools
+.sts4-cache/
+
+# Gemini artifacts (for development only)
+.gemini/
+
+# Task files (not needed in repo)
+*.pdf
+task_requirements.txt
+compile_output.txt
+test_output.txt
+test_full_output.txt
+compile_err.txt
+run_err.txt
